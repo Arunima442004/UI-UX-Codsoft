@@ -1,3 +1,14 @@
+/* Page-1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 360px;
+height: 640px;
+
+background: #FFFFFF;
+
+
 /* Rectangle 1 */
 
 position: absolute;
@@ -8,3 +19,264 @@ top: 0px;
 
 background: #8D0BF3;
 mix-blend-mode: darken;
+
+
+/* Forgot Your Password? */
+
+position: absolute;
+width: 239px;
+height: 16px;
+left: 128px;
+top: 393px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+text-align: center;
+letter-spacing: 0.2em;
+
+color: #5F5F5F;
+
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 2px 0px;
+gap: 10px;
+
+position: absolute;
+width: 314px;
+height: 40px;
+left: 20px;
+top: 427px;
+
+background: #8D0BF3;
+border-radius: 16px;
+
+
+/* Sign In */
+
+width: 73px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+letter-spacing: 0.2em;
+
+color: #F8F8F8;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+position: absolute;
+width: 314px;
+height: 48px;
+left: 23px;
+top: 268px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 8.5%, rgba(0, 0, 0, 0) 100%), #FFFFFF;
+border-radius: 16px;
+
+
+/* Email */
+
+width: 54px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+letter-spacing: 0.2em;
+
+color: #5F5F5F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px;
+gap: 16px;
+
+position: absolute;
+width: 314px;
+height: 48px;
+left: 23px;
+top: 340px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), #FFFFFF;
+border-radius: 16px;
+
+
+/* Password */
+
+width: 98px;
+height: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+letter-spacing: 0.2em;
+
+color: #5F5F5F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 1 */
+
+position: absolute;
+width: 251px;
+height: 65px;
+left: 55px;
+top: 526px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+backdrop-filter: blur(4px);
+/* Note: backdrop-filter has minimal browser support */
+
+
+/* Google */
+
+position: absolute;
+width: 48px;
+height: 52px;
+left: 55px;
+top: 533px;
+
+background: url(.png);
+
+
+/* Facebook */
+
+position: absolute;
+width: 61px;
+height: 63px;
+left: 142px;
+top: 526px;
+
+background: url(.png);
+
+
+/* LinkedIn Circled */
+
+position: absolute;
+width: 66px;
+height: 65px;
+left: 240px;
+top: 526px;
+
+background: url(.png);
+
+
+/* Line 1 */
+
+position: absolute;
+width: 153px;
+height: 0px;
+left: 16px;
+top: 494px;
+
+border: 1px solid #000000;
+transform: rotate(-0.37deg);
+
+
+/* or */
+
+position: absolute;
+width: 20px;
+height: 16px;
+left: 170px;
+top: 485px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+text-align: center;
+letter-spacing: 0.2em;
+
+color: #000000;
+
+
+
+/* Line 2 */
+
+position: absolute;
+width: 142px;
+height: 0px;
+left: 195px;
+top: 492px;
+
+border: 1px solid #000000;
+transform: rotate(0.41deg);
+
+
+/* Filled Circle */
+
+position: absolute;
+width: 170px;
+height: 169px;
+left: 95px;
+top: 100px;
+
+background: url(.png);
+
+
+/* User */
+
+position: absolute;
+width: 82px;
+height: 82px;
+left: 137px;
+top: 143px;
+
+background: url(.png);
